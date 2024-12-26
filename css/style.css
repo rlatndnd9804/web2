@@ -1,0 +1,213 @@
+@import url(common.css);
+
+nav {
+  padding: 3vh;
+  width: 120vh;
+  height: 5vh;
+}
+
+.menu_41,
+.menu_42 {
+  display: none;
+  cursor: pointer;
+}
+
+.menu_1:hover {
+  border-bottom: 4px solid black;
+  transition: ease;
+}
+
+.menu_2:hover {
+  border-bottom: 4px solid black;
+  transition: ease;
+}
+
+.menu_3:hover {
+  border-bottom: 4px solid black;
+  transition: ease;
+}
+.menu_4:hover {
+  border-bottom: 4px solid black;
+  transition: ease;
+}
+
+ul {
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 2vh;
+}
+
+ul li {
+  padding: 1vh;
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3vh;
+}
+
+.section_1 {
+  /* background-color: lightgray; */
+  height: 100vh;
+  /* background: url(/img/section_1\ img.jpg) no-repeat center;
+  background-size: cover; */
+}
+
+.section_1 .point {
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  opacity: 50%;
+}
+
+.section_1_text {
+  font-size: 20vh;
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+/* /section_1 end----------------------------------------------/ */
+
+.section_2 {
+  height: 100vh;
+}
+
+.con_1 {
+  margin: 36vh 28vh 14px 16vh;
+  /* border: 1px solid; */
+  width: 65vh;
+  float: right;
+  height: 100vh;
+}
+
+.section_2 .point {
+  position: absolute;
+  padding-left: 41vh;
+  opacity: 50%;
+}
+
+.int {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vh;
+  color: #2b2b2b;
+  line-height: 2;
+}
+
+.me {
+  width: 100vh;
+  height: 100vh;
+}
+
+.me img {
+  height: 36vh;
+  width: 27vh;
+  padding: 28vh 0 0 55vh;
+}
+.metext {
+  margin: 2vh 0 0 63vh;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 2vh;
+  color: #2b2b2b;
+  font-weight: 500;
+}
+
+/*section_2 end*/
+
+.section_3 {
+  height: 100vh;
+  /* background-color: lightgray; */
+}
+
+.skills {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20vh;
+  padding: 12vh 0 0 57vh;
+  white-space: nowrap;
+}
+
+.appimg {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 120vh;
+  padding: 13vh 0 0 40vh;
+}
+
+.section_3 img {
+  width: 20vh;
+}
+
+/* section_3 end */
+
+.section_4 {
+  height: 142vh;
+}
+
+.first {
+  width: 110vh;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+}
+
+.second {
+  width: 80vh;
+  margin-left: 10vh;
+  float: right;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+}
+
+.rightarrow {
+  width: 10vh;
+  padding-left: 106vh;
+}
+
+.section_4 .text {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vh;
+  color: #2b2b2b;
+  line-height: 2;
+}
+
+/* section_4end-------------- */
+
+.section_5 {
+  height: 100vh;
+  /* background-color: lightgray; */
+}
+
+.img {
+  padding: 9vh 0 0 9vh;
+  width: 189vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_5 img {
+  border: 1px solid black;
+}
+
+.section_6 {
+  height: 100vh;
+}
+
+.img_2 {
+  padding: 25vh 0 0 14vh;
+  display: flex;
+  justify-content: space-between;
+  width: 180vh;
+}
+
+.section_6 img {
+  width: 80vh;
+  border: 1px solid black;
+}

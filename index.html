@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>김수웅 웹 포폴</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/asdf.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      
+      <section class="section_1">
+        <div class="point">
+          <img src="./img/point.png" alt="">
+        </div>
+       
+        <nav>
+          <ul>
+            <li class="menu_1"><a href="#">MAIN</a></li>
+            <li class="menu_2"><a href="#">RESUME</a></li>
+            <li class="menu_3"><a href="#">SKILLS</a></li>
+            <li class="menu_4"><a href="#">PORTFOLIO</a>
+            <li class="menu_41">1</li>
+            <li class="menu_42">2</li>
+          </li>
+          </ul>
+        </nav>
+        
+        <div class="section_1_text">Web portfolio</div>
+      </section>
+
+      <!-- section_1 end -->
+
+      <section class="section_2">
+        <div class="point">
+          <img src="./img/point.png" alt="">
+        </div>
+        
+        <div class="con_1">
+          
+          <li class="int">이름:김수웅</li>
+          <li class="int">나이:26</li>
+          <li class="int">학력:인제대 헬스케어IT학과 졸업</li>
+          <li class="int">
+            수상경력:2021 뉴노멀라이브 창업가과정 장려상 <br />
+            2022 창업 시뮬레이션 STRIVE 과정 프로그램 최우수상
+          </li>
+          <li class="int">
+            수료내역:2023.3 - 2024.3 서면 SBS컴퓨터아카데미학원
+          </li>
+          <li class="int">
+            수료과목:일러스트 , 포토샵 , UI/UX, HTML, CSS , java script , jQuery
+          </li>
+        </div>
+        
+
+        <div class="me">
+          <img src="./img/me.jpg" alt="" />
+          <div class="metext">1999.12.28</div>
+        </div>
+
+        <div class="con_2"></div>
+        <div class="con_3"></div>
+      </section>
+
+      <!-- section_2 end -->
+
+      <section class="section_3">
+        <div class="point2"></div>
+        <div class="skills">My Skills</div>
+        
+        <div class="appimg">
+          <img src="./img/ai.png.png" alt="" />
+          <img src="./img/ps.png.png" alt="" />
+          <img src="./img/vs.png.png" alt="" />
+          <img src="./img/xd.png.png" alt="" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
+<!-- section_3 end -->
+
+<section class="section_4">
+  <div class="wrap">
+    <img class="first" src="./img/web1.jpg" alt="" />
+
+    <img class="second" src="./img/web2.jpg" alt="" />
+  </div>
+
+  <img class="rightarrow" src="./img/rightarrow.png" alt="" />
+  <div class="text">
+    첫 번째로, 중요하지 않은 메뉴들이 많아 섹션으로 내려 보기쉽게 하였습니다.
+    <br />
+    두 번째, 각 가로의 여백을 최소화하여 시각적으로 글씨가 더 커보이게
+    만들었습니다.<br />
+    세 번째로, 섹션 2의 다양한 콘텐츠를 카드 형식으로 배열해 가독성을 높이고
+    정보를 효과적으로 전달할 수 있게 만들었습니다.<br />
+    네 번째, 보험회사 이므로 이벤트를 쪽을 더 강조하였습니다.<br />
+    마지막으로, 40대 이상의 사용자를 고려하여 글씨 크기를 확대하여 가독성을
+    늘렸습니다
+  </div>
+</section>
+
+<!-- section4end -->
+
+<section class="section_5">
+  <div class="img">
+  <img src="./img/cd1.jpg" alt="">
+  <img src="./img/cd2.jpg" alt="">
+  <img src="./img/cd3.jpg" alt="">
+</div>
+</section>
+
+<!-- section_5end -->
+
+<section class="section_6">
+  <div class="img_2">
+    <img src="./img/card_1.jpg" alt="">
+    <img src="./img/card_2.jpg" alt="">
+    
+
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    var sec2_t = $(".section_2").offset().top;
+    var sec3_t = $(".section_3").offset().top;
+    var sec4_t = $(".section_4").offset().top;
+
+    $(".btn_1 , .menu_1").click(function () {
+      $("html, body").animate({
+        scrollTop: 0,
+      });
+    });
+
+    $(".btn_2 , .menu_2").click(function () {
+      $("html, body").animate({
+        scrollTop: sec2_t,
+      });
+    });
+
+    $(".btn_3 , .menu_3").click(function () {
+      $("html, body").animate({
+        scrollTop: sec3_t,
+      });
+    });
+
+    $(".btn_4 , .menu_4").click(function () {
+      $("html, body").animate({
+        scrollTop: sec4_t,
+      });
+    });
+  });
+</script>
+
+<!-- scroll event -->
